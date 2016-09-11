@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cool.alex123.layout.MainActivity">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_dots_vertical"
+        android:title="@string/menu_actions_more">
+        <menu>
+            <item
+                android:id="@+id/menu_main_item_settings"
+                android:title="@string/menu_main_item_settings"
+                android:icon="@drawable/ic_settings"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menu_main_item_about"
+                android:title="@string/menu_main_item_about"
+                android:icon="@drawable/ic_help_circle"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menu_main_item_asses"
+                android:title="@string/menu_main_item_asses"
+                android:icon="@drawable/ic_checkbox_multiple_marked"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
+    <!--app:showAsAction="never" всегда скрывать пункт меню за тремя точками-->
