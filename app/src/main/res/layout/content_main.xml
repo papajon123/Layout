@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/content_main_edit_text_input"
         android:hint="@string/content_main_edit_text_hint"
-        android:allowUndo="false" />
+        android:password="false"
+        android:phoneNumber="true" />
 
     <Button
         android:layout_width="wrap_content"
